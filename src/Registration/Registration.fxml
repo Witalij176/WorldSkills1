@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="559.0" prefWidth="609.0" style="-fx-background-color: #b5d5ca;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Registration.Registration">
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="205.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../res/morgen.png" />
+            </image>
+        </ImageView>
+        <Label alignment="CENTER" ellipsisString="" layoutX="38.0" layoutY="148.0" prefHeight="26.0" prefWidth="534.0" text="Добро пожаловать, Клиент!" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="256.0" text="Логин:" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="309.0" text="Пароль:" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="363.0" text="Почта:" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="421.0" text="Телефон:" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Button blendMode="OVERLAY" layoutX="453.0" layoutY="496.0" mnemonicParsing="false" onAction="#clickSaveButton" prefHeight="37.0" prefWidth="119.0" style="-fx-background-color: #b5d5ca; -fx-background-radius: 0;" text="Сохранить" />
+        <Button blendMode="OVERLAY" layoutX="37.0" layoutY="496.0" mnemonicParsing="false" onAction="#clickExitButton" prefHeight="37.0" prefWidth="119.0" style="-fx-background-color: #b5d5ca; -fx-background-radius: 0;" text="Выйти" />
+        <TextField fx:id="login" layoutX="154.0" layoutY="256.0" prefHeight="27.0" prefWidth="411.0" style="-fx-background-color: #b5d5ca; -fx-text-inner-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <Line endX="310.0" layoutX="260.0" layoutY="284.0" startX="-100.0" stroke="WHITE" />
+        <Line endX="80.0" layoutX="260.0" layoutY="337.0" startX="-100.0" stroke="WHITE" />
+        <TextField fx:id="mail" layoutX="153.0" layoutY="363.0" prefHeight="27.0" prefWidth="411.0" style="-fx-background-color: #b5d5ca; -fx-text-inner-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <Line endX="310.0" layoutX="260.0" layoutY="391.0" startX="-100.0" stroke="WHITE" />
+        <TextField fx:id="phone" layoutX="153.0" layoutY="421.0" prefHeight="27.0" prefWidth="411.0" style="-fx-background-color: #b5d5ca; -fx-text-inner-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <Line endX="310.0" layoutX="260.0" layoutY="449.0" startX="-100.0" stroke="WHITE" />
+      <Label layoutX="37.0" layoutY="199.0" prefHeight="26.0" prefWidth="150.0" text="Ваше имя" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="156.0" layoutY="199.0" prefHeight="27.0" prefWidth="411.0" style="-fx-background-color: #b5d5ca; -fx-text-inner-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Line endX="100.0" layoutX="470.0" layoutY="337.0" startX="-100.0" stroke="WHITE" />
+      <Label layoutX="349.0" layoutY="310.0" text="+" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Line endX="310.0" layoutX="260.0" layoutY="229.0" startX="-100.0" stroke="WHITE" />
+      <PasswordField fx:id="passwd1" layoutX="156.0" layoutY="307.0" prefHeight="27.0" prefWidth="188.0" style="-fx-background-color: #b5d5ca; -fx-text-inner-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font></PasswordField>
+      <PasswordField fx:id="passwd2" layoutX="370.0" layoutY="307.0" prefHeight="27.0" prefWidth="200.0" style="-fx-background-color: #b5d5ca; -fx-text-inner-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font></PasswordField>
+    </children>
+</Pane>

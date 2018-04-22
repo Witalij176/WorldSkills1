@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="473.0" prefWidth="609.0" style="-fx-background-color: #b5d5ca;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cabinet.Cabinet">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="19.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/morgen.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="41.0" layoutY="140.0" text="Добро пожаловать," textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="190.0" text="Логин:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="243.0" text="Пароль:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="297.0" text="Почта:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="355.0" text="Телефон:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="role" layoutX="439.0" layoutY="38.0" prefHeight="53.0" prefWidth="156.0" text="Директор" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="editButton" blendMode="HARD_LIGHT" layoutX="43.0" layoutY="413.0" mnemonicParsing="false" onAction="#editButtonClick" prefHeight="37.0" prefWidth="119.0" style="-fx-background-color: #b5d5ca; -fx-background-radius: 0;" text="Редактировать" />
+      <Button blendMode="OVERLAY" layoutX="434.0" layoutY="413.0" mnemonicParsing="false" onAction="#exitButtonClick" prefHeight="37.0" prefWidth="119.0" style="-fx-background-color: #b5d5ca; -fx-background-radius: 0;" text="Выйти" />
+      <Label layoutX="392.0" layoutY="38.0" prefHeight="53.0" prefWidth="47.0" text="Вы" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Line endX="200.0" layoutX="354.0" layoutY="167.0" startX="-100.0" stroke="WHITE" />
+      <TextField fx:id="name" editable="false" layoutX="248.0" layoutY="139.0" prefHeight="27.0" prefWidth="301.0" style="-fx-background-color: #b5d5ca; -fx-text-inner-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="login" editable="false" layoutX="157.0" layoutY="190.0" prefHeight="27.0" prefWidth="402.0" style="-fx-background-color: #b5d5ca; -fx-text-inner-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Line endX="295.0" layoutX="263.0" layoutY="218.0" startX="-100.0" stroke="WHITE" />
+      <Line endX="295.0" layoutX="263.0" layoutY="271.0" startX="-100.0" stroke="WHITE" />
+      <TextField fx:id="mail" editable="false" layoutX="156.0" layoutY="297.0" prefHeight="27.0" prefWidth="402.0" style="-fx-background-color: #b5d5ca; -fx-text-inner-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Line endX="295.0" layoutX="262.0" layoutY="325.0" startX="-100.0" stroke="WHITE" />
+      <TextField fx:id="phone" editable="false" layoutX="156.0" layoutY="355.0" prefHeight="27.0" prefWidth="402.0" style="-fx-background-color: #b5d5ca; -fx-text-inner-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Line endX="295.0" layoutX="262.0" layoutY="383.0" startX="-100.0" stroke="WHITE" />
+      <PasswordField fx:id="passwd" editable="false" layoutX="157.0" layoutY="243.0" prefHeight="27.0" prefWidth="402.0" style="-fx-background-color: #b5d5ca; -fx-text-inner-color: white;">
+         <font>
+            <Font size="14.0" />
+         </font></PasswordField>
+   </children>
+</Pane>

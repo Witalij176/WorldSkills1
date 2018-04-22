@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="WorldSkills">
+    <output-path>$PROJECT_DIR$/out/artifacts/WorldSkills</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="WorldSkills" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="WorldSkills.jar">
+        <element id="module-output" name="WorldSkills" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.46-bin1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
