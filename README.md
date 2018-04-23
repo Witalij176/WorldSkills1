@@ -3,7 +3,7 @@
 Copyright (c) 2018, Witalij Bukatkin
 All rights reserved.
 
-Первая работа для конкурса по WorldSkills
+Первая работа для конкурса по WorldSkills СПбКИТ
 
 Создает, редактирует и авторизирует пользователей.
 
